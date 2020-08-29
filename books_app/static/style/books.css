@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper{
+    margin: 10px auto;
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #6f8ddf;
+}
+#main_content{
+    margin: 20px 30px;
+}
+.column{
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin-right: 105px;
+    margin-left: 105px;
+    font-size: 20px;
+}
+.column-b{
+    display: inline-block;
+    width: 380px;
+    vertical-align: top;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.column-b input{
+    margin-left: 50px;
+    width: 260px;
+}
+.column-b label{
+    vertical-align: top;
+}
+.column-b form{
+    margin-top: 20px;
+}
+.column-b button{
+    margin-left: 95px;
+}
+.column-b p{
+    margin-bottom: 10px;
+}
+.column-b div{
+    margin-top: 20px;
+}
+.column-b h2{
+    margin-bottom: 20px;
+}
+.column-b ul{
+    margin-left: 20px;
+}
+.column-b button{
+    display: inline-block;
+}
+input{
+    width: 250px;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+textarea{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+h1{
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+button{
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.messages{
+    color: #fff;
+}
+#header{
+    color: #fff;
+    background-color: #24408e;
+    padding: 25px 45px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    background-color: #24408e;
+}
+.header_a{
+    display: inline-block;
+    width: 453px;
+    text-align: right;
+}
+.header_h{
+    display: inline-block;
+    width: 453px;
+}
+.desc{
+    text-align: justify;
+}
+.del a{
+    color: black;
+}
+.fav{
+    font-size: 12pt;
+}
+.column-b .title{
+    margin-top: 35px;
+    text-shadow: 2px 2px 4px #000000;
+    font: bold;
+    font-size: larger;
+}
+#main_content dl{
+    margin-top: 20px;
+}

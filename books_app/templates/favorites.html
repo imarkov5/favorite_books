@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Books</title>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'style/books.css'%}">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1 class="header_h">Welcome, {{request.session.name}}!</h1>
+            <div class="header_a"><a href="/books">Go Back</a></div>
+        </div>
+        <div id="main_content">
+            <h2>Your Favorite Books</h2>
+            {% for book in fav_books  %}
+            <dl>
+                <dt><h3>{{book.title}}</h3></dt>       
+                <dd><p>{{book.desc}}</p></dd>
+            </dl> 
+            {% endfor %}
+            
+        </div>        
+    </div>
+</body>
+</html>
